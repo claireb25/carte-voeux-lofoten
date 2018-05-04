@@ -1,0 +1,201 @@
+svg {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  background-color: #0f78b9;
+  text-align: center;
+}
+
+.blue-box {
+  display: block;
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0f78b9;
+  overflow: auto;
+  font-size: 16px;
+  font-family: arial;
+  color: transparent;
+  text-align: center;
+}
+
+@keyframes slide-mask {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: -1643.33px 0;
+    mask-position: -1643.33px 0;
+  }
+}
+
+@-webkit-keyframes slide-mask {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: -1643.33px 0;
+    mask-position: -1643.33px 0;
+  }
+}
+
+.waves {
+  position: absolute;
+  top: 554px;
+  background-color: #0f78b9;
+  display: block;
+  width: 100%;
+  height: 50px;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20viewBox%3D%22-161%20-12%201643.33%20210%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3CclipPath%20id%3D%22clip-waves%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22-161%22%20y%3D%22-12%22%20width%3D%221643.33%22%20height%3D%22210%22/%3E%0A%20%20%20%20%3C/clipPath%3E%0A%20%20%3C/defs%3E%0A%20%20%3Cg%20id%3D%22waves%22%20class%3D%22cls-1%22%3E%0A%20%20%20%20%3Cpath%20id%3D%22path%22%20class%3D%22cls-2%22%20d%3D%22M106.5-195.5c-8.4%2C14.2-17.6%2C28.83-33.1%2C37.63-6.835%2C3.92-23.148%2C7.633-39.3%2C8.6a219.571%2C219.571%2C0%2C0%2C1-33.6-.9V-.5h1643l.3-85.8c.1-47.1-.1-63.82-.1-63.82a204.784%2C204.784%2C0%2C0%2C1-22.5-4.65c-9.944-2.649-21.285-6.941-29.2-9.8-20.387-7.363-43.863-18.291-56.6-27.13-5.1-3.4-10-6.3-11-6.3-.9%2C0-7%2C4-13.5%2C8.9-18.9%2C14.3-35.7%2C22.4-57.4%2C27.6-14.3%2C3.5-24.5%2C4.5-45%2C4.5-17.3%2C0-18.7-.2-36.5-4-21.2-4.6-27-6.4-43-13.2-6.3-2.6-12-4.8-12.7-4.8s-5.2%2C3.3-9.9%2C7.4c-10%2C8.6-24.2%2C16.4-35.9%2C19.8-10.7%2C3-35.4%2C3.3-48.5.5-26.8-5.7-59.3-18.7-85.2-34-4-2.3-8.1-4.6-9-4.9-1-.4-5.6%2C1.2-12%2C4.4-29.9%2C14.7-56.3%2C20.8-89.6%2C20.8-40%2C0-80-11-111.4-30.7A15.175%2C15.175%2C0%2C0%2C0%2C909-198c-1.1%2C0-8.4%2C4.7-16.3%2C10.4-17.1%2C12.5-28.1%2C18.9-44.1%2C25.7-26.3%2C11.1-49.5%2C15.8-82.1%2C16.6-15.2.4-23%2C.1-32.5-1.1-40.1-5.3-80.3-19.7-117.2-41.9L604.1-196l-11.3%2C11.3c-12.9%2C12.9-21.2%2C18.1-36.7%2C23.3-13.9%2C4.7-27.4%2C6.4-49.8%2C6.4-40.5%2C0-82.4-8.7-136.2-28.2l-19.4-7-3.9%2C4.6c-10.6%2C12.3-28.7%2C21-52.8%2C25.2-12.7%2C2.2-38.6%2C1.5-55.5-1.5-30.9-5.5-76.7-19.2-109-32.6-8.8-3.7-16.7-6.9-17.6-7.2C110.8-202%2C109.2-200.2%2C106.5-195.5Z%22%20transform%3D%22translate%28-161.5%20198.87%29%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E") repeat-x;
+  mask: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20viewBox%3D%22-161%20-12%201643.33%20210%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3CclipPath%20id%3D%22clip-waves%22%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22-161%22%20y%3D%22-12%22%20width%3D%221643.33%22%20height%3D%22210%22/%3E%0A%20%20%20%20%3C/clipPath%3E%0A%20%20%3C/defs%3E%0A%20%20%3Cg%20id%3D%22waves%22%20class%3D%22cls-1%22%3E%0A%20%20%20%20%3Cpath%20id%3D%22path%22%20class%3D%22cls-2%22%20d%3D%22M106.5-195.5c-8.4%2C14.2-17.6%2C28.83-33.1%2C37.63-6.835%2C3.92-23.148%2C7.633-39.3%2C8.6a219.571%2C219.571%2C0%2C0%2C1-33.6-.9V-.5h1643l.3-85.8c.1-47.1-.1-63.82-.1-63.82a204.784%2C204.784%2C0%2C0%2C1-22.5-4.65c-9.944-2.649-21.285-6.941-29.2-9.8-20.387-7.363-43.863-18.291-56.6-27.13-5.1-3.4-10-6.3-11-6.3-.9%2C0-7%2C4-13.5%2C8.9-18.9%2C14.3-35.7%2C22.4-57.4%2C27.6-14.3%2C3.5-24.5%2C4.5-45%2C4.5-17.3%2C0-18.7-.2-36.5-4-21.2-4.6-27-6.4-43-13.2-6.3-2.6-12-4.8-12.7-4.8s-5.2%2C3.3-9.9%2C7.4c-10%2C8.6-24.2%2C16.4-35.9%2C19.8-10.7%2C3-35.4%2C3.3-48.5.5-26.8-5.7-59.3-18.7-85.2-34-4-2.3-8.1-4.6-9-4.9-1-.4-5.6%2C1.2-12%2C4.4-29.9%2C14.7-56.3%2C20.8-89.6%2C20.8-40%2C0-80-11-111.4-30.7A15.175%2C15.175%2C0%2C0%2C0%2C909-198c-1.1%2C0-8.4%2C4.7-16.3%2C10.4-17.1%2C12.5-28.1%2C18.9-44.1%2C25.7-26.3%2C11.1-49.5%2C15.8-82.1%2C16.6-15.2.4-23%2C.1-32.5-1.1-40.1-5.3-80.3-19.7-117.2-41.9L604.1-196l-11.3%2C11.3c-12.9%2C12.9-21.2%2C18.1-36.7%2C23.3-13.9%2C4.7-27.4%2C6.4-49.8%2C6.4-40.5%2C0-82.4-8.7-136.2-28.2l-19.4-7-3.9%2C4.6c-10.6%2C12.3-28.7%2C21-52.8%2C25.2-12.7%2C2.2-38.6%2C1.5-55.5-1.5-30.9-5.5-76.7-19.2-109-32.6-8.8-3.7-16.7-6.9-17.6-7.2C110.8-202%2C109.2-200.2%2C106.5-195.5Z%22%20transform%3D%22translate%28-161.5%20198.87%29%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E") repeat-x;
+  animation: slide-mask 30s linear infinite;
+}
+
+#swim {
+  z-index: 1000;
+}
+
+#youvgotmail {
+  animation: tree 1s linear infinite;
+}
+
+@keyframes tree {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(4px, 4px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  75% {
+    transform: translate(-4px, 4px);
+  }
+}
+
+#youvgotmail {
+  cursor: pointer;
+}
+
+#albatros {
+  position: absolute;
+  left: -50px;
+}
+
+#cloud1 {
+  animation: cloud 20s linear infinite;
+}
+
+@keyframes cloud {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#mailclicked {
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+#lettre {
+  transform: translateY(0);
+  animation: moveUp 4s;
+  -webkit-animation: moveUp 4s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes moveUp {
+  100% {
+    transform: translate(-20px, -200px);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes moveUp {
+  100% {
+    transform: translate(-20px, -200px);
+    opacity: 1;
+  }
+}
+
+#cloud2 {
+  position: absolute;
+  -webkit-animation: drift 30s linear backwards;
+  animation: drift 30s linear backwards;
+}
+
+/* Animation for the drifting clouds */
+
+@keyframes drift {
+  0% {
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+}
+
+@-webkit-keyframes drift {
+  0% {
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+}
+
+@media(min-width:1367px) {
+  .waves {
+    position: absolute;
+    top: 81%;
+  }
+}
